@@ -12,8 +12,8 @@ Newfolder = input("create folder name: ")
 try:
     if Newfolder != "":
         os.mkdir(Newfolder)
-        print(f"\nYou've created a new folder with a '{Newfolder}'.")
+        print(f"\nYou've created a new folder '{Newfolder}'.")
     else:
-        print("\nYou didnt specify name.")
+        print("\nyou must enter the folder name in order to create")
 except Exception as err:
     print(err)
