@@ -14,6 +14,7 @@ try:
         os.rmdir(dire)
         print(f"'{dire}' deleted")
     else:
-        print("You didnt specify repo name")
+        print("You didnt specify the repo name")
+
 except Exception as err:
     print(err)
